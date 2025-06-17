@@ -7,7 +7,13 @@ authors = [
     { name = "Andy Miles", email = "andy@proquickly.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.3",
+    "pandas>=2.3.0",
+    "pytest-bdd>=8.1.0",
+]
 
 [project.scripts]
 trips = "trips:main"
