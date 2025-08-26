@@ -1,0 +1,26 @@
+[project]
+name = "poi_ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ambikha", email = "ambikha.gowrishankar@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.0.15",
+    "flask>=3.1.1",
+    "folium>=0.20.0",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.3",
+    "pandas>=2.3.0",
+    "pytest-bdd>=8.1.0",
+]
+
+[project.scripts]
+poi_ai = "poi_ai:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
